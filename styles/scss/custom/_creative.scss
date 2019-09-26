@@ -1,0 +1,66 @@
+/*!
+ * Start Bootstrap - Creative v5.1.4 (https://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
+ */
+
+/*!
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+ /* portfolio part only */
+
+#portfolio .container-fluid {
+  max-width: 1920px;
+}
+
+#portfolio .container-fluid .portfolio-box {
+  position: relative;
+  display: block;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: #94c11f;
+  /*background: rgba(244, 98, 58, 0.9);*/
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+  font-size: 1.2rem;
+}
+
+#portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}

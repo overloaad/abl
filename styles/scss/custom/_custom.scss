@@ -1,0 +1,34 @@
+
+/*green*/
+
+.text-primary {
+  color: #94c11f !important;
+}
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: #94c11f;
+  /*background: rgba(244, 98, 58, 0.9);*/
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+  text-align: center;
+}
