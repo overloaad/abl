@@ -187,7 +187,7 @@ header.masthead .overlay {
   position: absolute;
   top: 0;
   left: 0;
-  height: 75%; /*hauteur image principale background*/
+  height: 100%;
   width: 100%;
   background-color: #212529;
   opacity: 0.5;
@@ -543,7 +543,7 @@ footer .copyright {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 75%), url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
