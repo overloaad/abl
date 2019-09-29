@@ -10,6 +10,14 @@
 
   <title>Automatisation BL</title>
 
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
+
   <!-- Bootstrap core CSS -->
   <!-- <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet"> -->
   <link href="scss/bootstrap.css" rel="stylesheet">
@@ -30,35 +38,7 @@
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Automatisation BL</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services1.html">Automatisation</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services2.html">Produits spécialisés</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services3.html">Bâtiment</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <div id="header"></div>
 
   <!-- Page Header -->
   <header class="masthead" style="background-image: url('img/contact-bg.jpg')">
@@ -102,7 +82,7 @@
 
   <!-- Map -->
   <section id="contact" class="map">
-    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.8573011854496!2d-71.1206275843417!3d48.40168347924537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc026e530f02d91%3A0xc11062f405cb718!2s1485+Rue+de+la+Manic%2C+Chicoutimi%2C+QC+G7K+1G8!5e0!3m2!1sfr!2sca!4v1554564088654!5m2!1sfr!2sca" style="border:0" allowfullscreen></iframe>
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.8573011854496!2d-71.1206275843417!3d48.40168347924537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc026e530f02d91%3A0xc11062f405cb718!2s1485+Rue+de+la+Manic%2C+Chicoutimi%2C+QC+G7K+1G8!5e0!3m2!1sfr!2sca!4v1554564088654!5m2!1sfr!2sca" style="border:0" allowfullscreen></iframe>
     <br />
     <small>
       <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2648.8573011854496!2d-71.1206275843417!3d48.40168347924537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc026e530f02d91%3A0xc11062f405cb718!2s1485+Rue+de+la+Manic%2C+Chicoutimi%2C+QC+G7K+1G8!5e0!3m2!1sfr!2sca!4v1554564088654!5m2!1sfr!2sca"></a>
@@ -134,15 +114,15 @@
               </a>
             </li>
             <!--
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-          -->
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            -->
           </ul>
           <p class="copyright text-muted">Copyright &copy; Automatisation BL 2019</p>
         </div>
@@ -157,7 +137,6 @@
   <!-- Contact Form JavaScript -->
   <!-- <script src="js/jqBootstrapValidation.js"></script>-->
   <!-- <script src="js/contact_me.js"></script>-->
-
   <!-- Custom scripts for this template -->
   <script src="js/clean-blog.min.js"></script>
   <script src="js/stylish-portfolio.min.js"></script>
