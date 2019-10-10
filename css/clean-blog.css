@@ -183,7 +183,8 @@ header.masthead-home {
   padding-top: 50px;
   /*margin-bottom: 50px;*/
   background: no-repeat center center;
-  background-color: #868e96;
+  /*background-color: #868e96;*/
+  background-color: white;
   background-attachment: scroll;
   position: relative;
   /*background-size: cover;*/
