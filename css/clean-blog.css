@@ -188,7 +188,7 @@ header.masthead-home {
   background-attachment: scroll;
   position: relative;
   /*background-size: cover;*/
-  background-size: cover 500px;
+  background-size: cover 400px;
 }
 
 header.masthead .overlay {
