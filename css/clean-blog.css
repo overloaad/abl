@@ -116,7 +116,7 @@ img::-moz-selection {
     background: rgba(255, 255, 255, 0.9);
   }
   #mainNav .navbar-brand {
-    padding: 10px 20px;
+    /*padding: 10px 20px;*/
     /*color: #fff; texte toujours noir navbar*/
     color: #212529;
   }
