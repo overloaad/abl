@@ -617,3 +617,9 @@ footer .copyright {
   transition: opacity 0.25s ease;
   text-align: center;
 }
+
+/*custom navbarlogo*/
+
+#navbarlogo {
+  padding-left: 100px;
+}
