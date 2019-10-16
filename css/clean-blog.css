@@ -618,3 +618,8 @@ footer .copyright {
   text-align: center;
 }
 
+/*custom portfolio*/
+
+.portfolio-box-rotate{
+  transform: rotate(90deg);
+}
