@@ -80,7 +80,7 @@ img::-moz-selection {
 #mainNav {
   /*position: absolute;*/
   position: static;
-  border-bottom: 1px solid #e9ecef;
+  /*border-bottom: 1px solid #e9ecef;*/
   background-color: white;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -113,7 +113,7 @@ img::-moz-selection {
   #mainNav {
     /*border-bottom: 1px solid transparent;
     background: transparent;*/
-    border-bottom: 1px solid white;
+    /*border-bottom: 1px solid white;*/
     background: rgba(255, 255, 255, 0.9);
   }
   #mainNav .navbar-brand {
