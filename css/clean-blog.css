@@ -31,8 +31,7 @@ h6 {
 }
 
 a {
-  /*color: #212529;*/
-  color: #fff;
+  color: #212529;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -620,10 +619,4 @@ footer .copyright {
   -webkit-transition: opacity 0.25s ease;
   transition: opacity 0.25s ease;
   text-align: center;
-}
-
-/*custom couleur facebook*/
-
-.list-inline-item {
-  color: #212529;
 }
