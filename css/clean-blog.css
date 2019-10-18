@@ -31,7 +31,8 @@ h6 {
 }
 
 a {
-  color: #212529;
+  /*color: #212529;*/
+  color: #fff;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
