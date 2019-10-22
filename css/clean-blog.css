@@ -124,9 +124,10 @@ img::-moz-selection {
     /*color: #fff; texte toujours noir navbar*/
     color: #212529;
   }
-  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0.8);
-  }
+    #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+      /*color: rgba(255, 255, 255, 0.8);*/
+      color: rgb(148, 193, 31);
+    }
   #mainNav .navbar-nav > li.nav-item > a {
     padding: 10px 20px;
     /*color: #fff; texte toujours noir navbar*/
