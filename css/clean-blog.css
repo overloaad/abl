@@ -620,3 +620,7 @@ footer .copyright {
   transition: opacity 0.25s ease;
   text-align: center;
 }
+
+.bg-dark{
+  background-color: black;
+}
