@@ -627,3 +627,7 @@ footer .copyright {
 .abl-green {
   color: #94c11f !important;
 }
+
+img.fluid{
+  max-width: 95%;
+}
