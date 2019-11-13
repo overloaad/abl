@@ -630,5 +630,8 @@ footer .copyright {
 
 .img-fluid{
   max-width: 95%;
+}
+
+.portfolio-box{
   text-align: center;
 }
