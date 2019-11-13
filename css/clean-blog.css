@@ -635,3 +635,7 @@ footer .copyright {
 .portfolio-box{
   text-align: center;
 }
+
+.col-lg-4 col-sm-6{
+  margin-bottom: 20px;
+}
