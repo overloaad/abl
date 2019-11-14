@@ -629,8 +629,8 @@ footer .copyright {
 }
 
 .img-fluid {
-  /*max-width: 95%;*/
-  padding:10px;
+  max-width: 95%;
+  padding-top:10px;
 }
 
 .portfolio-box{
