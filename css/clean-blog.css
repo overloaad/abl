@@ -628,14 +628,15 @@ footer .copyright {
   color: #94c11f !important;
 }
 
-.img-fluid{
-  max-width: 95%;
+.img-fluid {
+  /*max-width: 95%;*/
+  padding:5px;
 }
 
 .portfolio-box{
   text-align: center;
 }
-
-.col-lg-4 .col-sm-6{
+/*.col-lg-4 .col-sm-6{
   margin-bottom: 20px;
-}
+}*/
+
